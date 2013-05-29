@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE5038AE1755DB0F007F5E47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5038AD1755DB0F007F5E47 /* UIKit.framework */; };
+		EE5038B01755DB0F007F5E47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5038AF1755DB0F007F5E47 /* Foundation.framework */; };
+		EE5038B21755DB0F007F5E47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5038B11755DB0F007F5E47 /* CoreGraphics.framework */; };
+		EE5038B81755DB0F007F5E47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE5038B61755DB0F007F5E47 /* InfoPlist.strings */; };
+		EE5038BA1755DB0F007F5E47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5038B91755DB0F007F5E47 /* main.m */; };
+		EE5038BE1755DB0F007F5E47 /* NAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5038BD1755DB0F007F5E47 /* NAAppDelegate.m */; };
+		EE5038C01755DB10007F5E47 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5038BF1755DB10007F5E47 /* Default.png */; };
+		EE5038C21755DB10007F5E47 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5038C11755DB10007F5E47 /* Default@2x.png */; };
+		EE5038C41755DB10007F5E47 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5038C31755DB10007F5E47 /* Default-568h@2x.png */; };
+		EE5038C71755DB10007F5E47 /* NAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5038C61755DB10007F5E47 /* NAViewController.m */; };
+		EE5038CA1755DB10007F5E47 /* NAViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5038C81755DB10007F5E47 /* NAViewController_iPhone.xib */; };
+		EE5038CD1755DB10007F5E47 /* NAViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5038CB1755DB10007F5E47 /* NAViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE5038AA1755DB0F007F5E47 /* NasAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5038AD1755DB0F007F5E47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE5038AF1755DB0F007F5E47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE5038B11755DB0F007F5E47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE5038B51755DB0F007F5E47 /* NasAssistant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NasAssistant-Info.plist"; sourceTree = "<group>"; };
+		EE5038B71755DB0F007F5E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE5038B91755DB0F007F5E47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE5038BB1755DB0F007F5E47 /* NasAssistant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NasAssistant-Prefix.pch"; sourceTree = "<group>"; };
+		EE5038BC1755DB0F007F5E47 /* NAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAAppDelegate.h; sourceTree = "<group>"; };
+		EE5038BD1755DB0F007F5E47 /* NAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAAppDelegate.m; sourceTree = "<group>"; };
+		EE5038BF1755DB10007F5E47 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EE5038C11755DB10007F5E47 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EE5038C31755DB10007F5E47 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EE5038C51755DB10007F5E47 /* NAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAViewController.h; sourceTree = "<group>"; };
+		EE5038C61755DB10007F5E47 /* NAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAViewController.m; sourceTree = "<group>"; };
+		EE5038C91755DB10007F5E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NAViewController_iPhone.xib; sourceTree = "<group>"; };
+		EE5038CC1755DB10007F5E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NAViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE5038A71755DB0F007F5E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5038AE1755DB0F007F5E47 /* UIKit.framework in Frameworks */,
+				EE5038B01755DB0F007F5E47 /* Foundation.framework in Frameworks */,
+				EE5038B21755DB0F007F5E47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE5038A11755DB0F007F5E47 = {
+			isa = PBXGroup;
+			children = (
+				EE5038B31755DB0F007F5E47 /* NasAssistant */,
+				EE5038AC1755DB0F007F5E47 /* Frameworks */,
+				EE5038AB1755DB0F007F5E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE5038AB1755DB0F007F5E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE5038AA1755DB0F007F5E47 /* NasAssistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE5038AC1755DB0F007F5E47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5038AD1755DB0F007F5E47 /* UIKit.framework */,
+				EE5038AF1755DB0F007F5E47 /* Foundation.framework */,
+				EE5038B11755DB0F007F5E47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE5038B31755DB0F007F5E47 /* NasAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				EE5038BC1755DB0F007F5E47 /* NAAppDelegate.h */,
+				EE5038BD1755DB0F007F5E47 /* NAAppDelegate.m */,
+				EE5038C51755DB10007F5E47 /* NAViewController.h */,
+				EE5038C61755DB10007F5E47 /* NAViewController.m */,
+				EE5038C81755DB10007F5E47 /* NAViewController_iPhone.xib */,
+				EE5038CB1755DB10007F5E47 /* NAViewController_iPad.xib */,
+				EE5038B41755DB0F007F5E47 /* Supporting Files */,
+			);
+			path = NasAssistant;
+			sourceTree = "<group>";
+		};
+		EE5038B41755DB0F007F5E47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE5038B51755DB0F007F5E47 /* NasAssistant-Info.plist */,
+				EE5038B61755DB0F007F5E47 /* InfoPlist.strings */,
+				EE5038B91755DB0F007F5E47 /* main.m */,
+				EE5038BB1755DB0F007F5E47 /* NasAssistant-Prefix.pch */,
+				EE5038BF1755DB10007F5E47 /* Default.png */,
+				EE5038C11755DB10007F5E47 /* Default@2x.png */,
+				EE5038C31755DB10007F5E47 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE5038A91755DB0F007F5E47 /* NasAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5038D01755DB10007F5E47 /* Build configuration list for PBXNativeTarget "NasAssistant" */;
+			buildPhases = (
+				EE5038A61755DB0F007F5E47 /* Sources */,
+				EE5038A71755DB0F007F5E47 /* Frameworks */,
+				EE5038A81755DB0F007F5E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NasAssistant;
+			productName = NasAssistant;
+			productReference = EE5038AA1755DB0F007F5E47 /* NasAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE5038A21755DB0F007F5E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = baroqueworkshop;
+			};
+			buildConfigurationList = EE5038A51755DB0F007F5E47 /* Build configuration list for PBXProject "NasAssistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE5038A11755DB0F007F5E47;
+			productRefGroup = EE5038AB1755DB0F007F5E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE5038A91755DB0F007F5E47 /* NasAssistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE5038A81755DB0F007F5E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5038B81755DB0F007F5E47 /* InfoPlist.strings in Resources */,
+				EE5038C01755DB10007F5E47 /* Default.png in Resources */,
+				EE5038C21755DB10007F5E47 /* Default@2x.png in Resources */,
+				EE5038C41755DB10007F5E47 /* Default-568h@2x.png in Resources */,
+				EE5038CA1755DB10007F5E47 /* NAViewController_iPhone.xib in Resources */,
+				EE5038CD1755DB10007F5E47 /* NAViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE5038A61755DB0F007F5E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5038BA1755DB0F007F5E47 /* main.m in Sources */,
+				EE5038BE1755DB0F007F5E47 /* NAAppDelegate.m in Sources */,
+				EE5038C71755DB10007F5E47 /* NAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE5038B61755DB0F007F5E47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5038B71755DB0F007F5E47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE5038C81755DB10007F5E47 /* NAViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5038C91755DB10007F5E47 /* en */,
+			);
+			name = NAViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		EE5038CB1755DB10007F5E47 /* NAViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5038CC1755DB10007F5E47 /* en */,
+			);
+			name = NAViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE5038CE1755DB10007F5E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE5038CF1755DB10007F5E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE5038D11755DB10007F5E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NasAssistant/NasAssistant-Prefix.pch";
+				INFOPLIST_FILE = "NasAssistant/NasAssistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE5038D21755DB10007F5E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NasAssistant/NasAssistant-Prefix.pch";
+				INFOPLIST_FILE = "NasAssistant/NasAssistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE5038A51755DB0F007F5E47 /* Build configuration list for PBXProject "NasAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5038CE1755DB10007F5E47 /* Debug */,
+				EE5038CF1755DB10007F5E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5038D01755DB10007F5E47 /* Build configuration list for PBXNativeTarget "NasAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5038D11755DB10007F5E47 /* Debug */,
+				EE5038D21755DB10007F5E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE5038A21755DB0F007F5E47 /* Project object */;
+}
