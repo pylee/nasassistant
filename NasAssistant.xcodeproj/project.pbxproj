@@ -19,6 +19,21 @@
 		EE5038C71755DB10007F5E47 /* NAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5038C61755DB10007F5E47 /* NAViewController.m */; };
 		EE5038CA1755DB10007F5E47 /* NAViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5038C81755DB10007F5E47 /* NAViewController_iPhone.xib */; };
 		EE5038CD1755DB10007F5E47 /* NAViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5038CB1755DB10007F5E47 /* NAViewController_iPad.xib */; };
+		EE5038D71755E029007F5E47 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5038D61755E029007F5E47 /* Network.m */; };
+		EE503A671756EF53007F5E47 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE503A661756EF53007F5E47 /* CFNetwork.framework */; };
+		EE503A691756EFE8007F5E47 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE503A681756EFE8007F5E47 /* Security.framework */; };
+		EE503AA01756F7F4007F5E47 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A881756F7F4007F5E47 /* AsyncSocket.m */; };
+		EE503AA11756F7F4007F5E47 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A8A1756F7F4007F5E47 /* AsyncUdpSocket.m */; };
+		EE503AA21756F7F4007F5E47 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A8C1756F7F4007F5E47 /* GCDAsyncSocket.m */; };
+		EE503AA31756F7F4007F5E47 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A8E1756F7F4007F5E47 /* GCDAsyncUdpSocket.m */; };
+		EE503AA41756F7F4007F5E47 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A911756F7F4007F5E47 /* DDAbstractDatabaseLogger.m */; };
+		EE503AA51756F7F4007F5E47 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A931756F7F4007F5E47 /* DDASLLogger.m */; };
+		EE503AA61756F7F4007F5E47 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A951756F7F4007F5E47 /* DDFileLogger.m */; };
+		EE503AA71756F7F4007F5E47 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A971756F7F4007F5E47 /* DDLog.m */; };
+		EE503AA81756F7F4007F5E47 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A991756F7F4007F5E47 /* DDTTYLogger.m */; };
+		EE503AA91756F7F4007F5E47 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A9C1756F7F4007F5E47 /* ContextFilterLogFormatter.m */; };
+		EE503AAA1756F7F4007F5E47 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE503A9E1756F7F4007F5E47 /* DispatchQueueLogFormatter.m */; };
+		EE503AAB1756F7F4007F5E47 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE503A9F1756F7F4007F5E47 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +54,33 @@
 		EE5038C61755DB10007F5E47 /* NAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAViewController.m; sourceTree = "<group>"; };
 		EE5038C91755DB10007F5E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NAViewController_iPhone.xib; sourceTree = "<group>"; };
 		EE5038CC1755DB10007F5E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NAViewController_iPad.xib; sourceTree = "<group>"; };
+		EE5038D51755E029007F5E47 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		EE5038D61755E029007F5E47 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		EE503A661756EF53007F5E47 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EE503A681756EFE8007F5E47 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EE503A871756F7F4007F5E47 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		EE503A881756F7F4007F5E47 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		EE503A891756F7F4007F5E47 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		EE503A8A1756F7F4007F5E47 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		EE503A8B1756F7F4007F5E47 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		EE503A8C1756F7F4007F5E47 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		EE503A8D1756F7F4007F5E47 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		EE503A8E1756F7F4007F5E47 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		EE503A901756F7F4007F5E47 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		EE503A911756F7F4007F5E47 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		EE503A921756F7F4007F5E47 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		EE503A931756F7F4007F5E47 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		EE503A941756F7F4007F5E47 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		EE503A951756F7F4007F5E47 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		EE503A961756F7F4007F5E47 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		EE503A971756F7F4007F5E47 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		EE503A981756F7F4007F5E47 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		EE503A991756F7F4007F5E47 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		EE503A9B1756F7F4007F5E47 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		EE503A9C1756F7F4007F5E47 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		EE503A9D1756F7F4007F5E47 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		EE503A9E1756F7F4007F5E47 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		EE503A9F1756F7F4007F5E47 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE503A691756EFE8007F5E47 /* Security.framework in Frameworks */,
+				EE503A671756EF53007F5E47 /* CFNetwork.framework in Frameworks */,
 				EE5038AE1755DB0F007F5E47 /* UIKit.framework in Frameworks */,
 				EE5038B01755DB0F007F5E47 /* Foundation.framework in Frameworks */,
 				EE5038B21755DB0F007F5E47 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +119,8 @@
 		EE5038AC1755DB0F007F5E47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE503A681756EFE8007F5E47 /* Security.framework */,
+				EE503A661756EF53007F5E47 /* CFNetwork.framework */,
 				EE5038AD1755DB0F007F5E47 /* UIKit.framework */,
 				EE5038AF1755DB0F007F5E47 /* Foundation.framework */,
 				EE5038B11755DB0F007F5E47 /* CoreGraphics.framework */,
@@ -85,6 +131,9 @@
 		EE5038B31755DB0F007F5E47 /* NasAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				EE503A851756F7F4007F5E47 /* Vendor */,
+				EE5038D31755DC8E007F5E47 /* Library */,
+				EE5038D41755DC8E007F5E47 /* Resource */,
 				EE5038BC1755DB0F007F5E47 /* NAAppDelegate.h */,
 				EE5038BD1755DB0F007F5E47 /* NAAppDelegate.m */,
 				EE5038C51755DB10007F5E47 /* NAViewController.h */,
@@ -108,6 +157,76 @@
 				EE5038C31755DB10007F5E47 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE5038D31755DC8E007F5E47 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EE5038D51755E029007F5E47 /* Network.h */,
+				EE5038D61755E029007F5E47 /* Network.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EE5038D41755DC8E007F5E47 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EE503A851756F7F4007F5E47 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				EE503A861756F7F4007F5E47 /* CocoaAsyncSocket */,
+				EE503A8F1756F7F4007F5E47 /* Lumberjack */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		EE503A861756F7F4007F5E47 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				EE503A871756F7F4007F5E47 /* AsyncSocket.h */,
+				EE503A881756F7F4007F5E47 /* AsyncSocket.m */,
+				EE503A891756F7F4007F5E47 /* AsyncUdpSocket.h */,
+				EE503A8A1756F7F4007F5E47 /* AsyncUdpSocket.m */,
+				EE503A8B1756F7F4007F5E47 /* GCDAsyncSocket.h */,
+				EE503A8C1756F7F4007F5E47 /* GCDAsyncSocket.m */,
+				EE503A8D1756F7F4007F5E47 /* GCDAsyncUdpSocket.h */,
+				EE503A8E1756F7F4007F5E47 /* GCDAsyncUdpSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		EE503A8F1756F7F4007F5E47 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				EE503A901756F7F4007F5E47 /* DDAbstractDatabaseLogger.h */,
+				EE503A911756F7F4007F5E47 /* DDAbstractDatabaseLogger.m */,
+				EE503A921756F7F4007F5E47 /* DDASLLogger.h */,
+				EE503A931756F7F4007F5E47 /* DDASLLogger.m */,
+				EE503A941756F7F4007F5E47 /* DDFileLogger.h */,
+				EE503A951756F7F4007F5E47 /* DDFileLogger.m */,
+				EE503A961756F7F4007F5E47 /* DDLog.h */,
+				EE503A971756F7F4007F5E47 /* DDLog.m */,
+				EE503A981756F7F4007F5E47 /* DDTTYLogger.h */,
+				EE503A991756F7F4007F5E47 /* DDTTYLogger.m */,
+				EE503A9A1756F7F4007F5E47 /* Extensions */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		EE503A9A1756F7F4007F5E47 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE503A9B1756F7F4007F5E47 /* ContextFilterLogFormatter.h */,
+				EE503A9C1756F7F4007F5E47 /* ContextFilterLogFormatter.m */,
+				EE503A9D1756F7F4007F5E47 /* DispatchQueueLogFormatter.h */,
+				EE503A9E1756F7F4007F5E47 /* DispatchQueueLogFormatter.m */,
+				EE503A9F1756F7F4007F5E47 /* README.txt */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +265,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = EE5038A11755DB0F007F5E47;
 			productRefGroup = EE5038AB1755DB0F007F5E47 /* Products */;
@@ -168,6 +288,7 @@
 				EE5038C41755DB10007F5E47 /* Default-568h@2x.png in Resources */,
 				EE5038CA1755DB10007F5E47 /* NAViewController_iPhone.xib in Resources */,
 				EE5038CD1755DB10007F5E47 /* NAViewController_iPad.xib in Resources */,
+				EE503AAB1756F7F4007F5E47 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +302,18 @@
 				EE5038BA1755DB0F007F5E47 /* main.m in Sources */,
 				EE5038BE1755DB0F007F5E47 /* NAAppDelegate.m in Sources */,
 				EE5038C71755DB10007F5E47 /* NAViewController.m in Sources */,
+				EE5038D71755E029007F5E47 /* Network.m in Sources */,
+				EE503AA01756F7F4007F5E47 /* AsyncSocket.m in Sources */,
+				EE503AA11756F7F4007F5E47 /* AsyncUdpSocket.m in Sources */,
+				EE503AA21756F7F4007F5E47 /* GCDAsyncSocket.m in Sources */,
+				EE503AA31756F7F4007F5E47 /* GCDAsyncUdpSocket.m in Sources */,
+				EE503AA41756F7F4007F5E47 /* DDAbstractDatabaseLogger.m in Sources */,
+				EE503AA51756F7F4007F5E47 /* DDASLLogger.m in Sources */,
+				EE503AA61756F7F4007F5E47 /* DDFileLogger.m in Sources */,
+				EE503AA71756F7F4007F5E47 /* DDLog.m in Sources */,
+				EE503AA81756F7F4007F5E47 /* DDTTYLogger.m in Sources */,
+				EE503AA91756F7F4007F5E47 /* ContextFilterLogFormatter.m in Sources */,
+				EE503AAA1756F7F4007F5E47 /* DispatchQueueLogFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +371,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -262,7 +395,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,6 +444,7 @@
 				EE5038D21755DB10007F5E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"
+         timestampString = "391663239.440628"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1997"
+         endingLineNumber = "1997"
+         landmarkName = "-connectToHost:onPort:viaInterface:withTimeout:error:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"
+         timestampString = "391663255.592312"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "2029"
+         endingLineNumber = "2029"
+         landmarkName = "-connectToHost:onPort:viaInterface:withTimeout:error:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"
+         timestampString = "391663326.586177"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "2262"
+         endingLineNumber = "2262"
+         landmarkName = "-lookup:didSucceedWithAddress4:address6:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"
+         timestampString = "391663397.005025"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "2423"
+         endingLineNumber = "2423"
+         landmarkName = "-connectWithAddress4:address6:error:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"
+         timestampString = "391663845.757863"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "2581"
+         endingLineNumber = "2581"
+         landmarkName = "-didNotConnect:error:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"
+         timestampString = "391663866.105348"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "2355"
+         endingLineNumber = "2355"
+         landmarkName = "-connectWithAddress4:address6:error:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"
+         timestampString = "391663927.018256"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1917"
+         endingLineNumber = "1917"
+         landmarkName = "-preConnectWithInterface:error:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"
+         timestampString = "391664700.421391"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "2449"
+         endingLineNumber = "2449"
+         landmarkName = "-didConnect:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/Vendor/CocoaAsyncSocket/GCDAsyncSocket.m"
+         timestampString = "391672160.423208"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "2621"
+         endingLineNumber = "2621"
+         landmarkName = "-endConnectTimeout"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NasAssistant/NAViewController.m"
+         timestampString = "391684214.145479"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "66"
+         endingLineNumber = "66"
+         landmarkName = "-getHostNameByAddr:"
+         landmarkType = "5">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>

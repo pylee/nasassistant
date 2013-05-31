@@ -9,6 +9,9 @@
 #import "NAAppDelegate.h"
 
 #import "NAViewController.h"
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "DDASLLogger.h"
 
 @implementation NAAppDelegate
 
@@ -21,6 +24,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
